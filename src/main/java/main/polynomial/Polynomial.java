@@ -1,13 +1,12 @@
-package polynomial;
-
-import com.sun.tools.javac.util.List;
+package main.polynomial;
 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by nickolay on 15.11.15.
+ * Класс хранить полином и позволяет получить
+ * вектор степеней полинома
  */
 public class Polynomial {
     private Map<Integer, Term> terms;

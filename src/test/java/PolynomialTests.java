@@ -1,5 +1,5 @@
 import org.junit.Test;
-import polynomial.Polynomial;
+import main.polynomial.Polynomial;
 
 import static org.junit.Assert.assertEquals;
 

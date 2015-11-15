@@ -1,7 +1,7 @@
-package polynomial;
+package main.polynomial;
 
 /**
- * Created by nickolay on 15.11.15.
+ * Один член полинома
  */
 public class Term implements Comparable<Term> {
     public static final String VARIABLE = "x";
