@@ -53,7 +53,13 @@ public class Main {
             }
 
             float correctionCoefficient = correctedErrorCount / errors.size();
-            System.out.println(errorMultiplicity + " " + errorCount + " " + correctedErrorCount + " " + correctionCoefficient);
+
+            System.out.println(
+                            errorMultiplicity + " " +
+                            errorCount + " " +
+                            correctedErrorCount + " " +
+                            correctionCoefficient
+            );
         }
     }
 
